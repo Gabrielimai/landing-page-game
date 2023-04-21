@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #0F1434;
+}
+
+.main-container{
+  
+    position: absolute;
+    background-color: #1A1E4D;
+    width: 60%;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.main-container .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    color: #fff;
+}
+
+.main-container .nav-bar svg{
+    width: 1.8em;
+}
+
+.main-container .nav-bar button{
+    width: 7em;
+    height: 3em;
+    border-radius: 1.5em;
+    color: #BC2489;
+    border: solid #BC2489;
+    background: none;
+    font-size: 1em;
+}
+
+.area{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-icon{
+    display: flex;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin-top: 50px;
+    padding-left: 25px;
+}
+
+.linkedin{
+    src: url();
+    margin-top: 2em;
+    width: 6em;
+    height: 1.5em;
+}
+
+.github{
+    src: url();
+    margin-top: 2em;
+    padding-right: 4em;
+    width: 6em;
+    height: 1.5em;
+}
+
+p{
+    font-size: 0.8em;
+    color: #fff;
+    margin-top: 10px;
+}
+
+h1{
+    color: #fff;
+   font-size: 3em;
+   
+}
+
+.submit{
+    cursor: pointer;
+    width: 10em;
+    height: 3em;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:#1493EA;
+}
+
+.login{
+    cursor: pointer;
+}
+
+.image{
+    margin-top:15px;
+}
+
+.ball{
+    padding-bottom: 10px;
+    margin-right: 25em;
+    background: linear-gradient(180deg, rgba(255,37,41,1) 0%, rgba(38,17,47,1) 100%);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+body .ballDois{
+    position: relative;
+    margin-top: 28em;
+    margin-left: 48em;
+    background: linear-gradient(101deg, rgba(188,36,137,1) 47%, rgba(87,23,115,1) 100%);
+    width: 18em;
+    height: 18em;
+    border-radius: 50%;
+}
+body .ballTres{
+    position: absolute;
+    margin-bottom: 25em;
+    margin-right: 45em;
+    background: linear-gradient(255deg, rgba(240,217,4,1) 14%, rgba(142,154,14,1) 100%);
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+.ballQuatro{
+    margin-bottom: 31em;
+    background: linear-gradient(255deg, rgba(247,34,63,1) 33%, rgba(147,148,16,1) 100%, rgba(142,154,14,1) 100%);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+.ballCinco{
+    margin-right: 10em;
+    background: linear-gradient(97deg, rgba(39,218,188,1) 41%, rgba(14,45,154,1) 91%);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
